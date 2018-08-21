@@ -1,121 +1,108 @@
-
-body{
-background-color:#efefef;
+html,
+body {
+    margin: 0;
+    width: 100%;
 }
 
-
-.navbar{
-overflow:hidden;
-background-color:#333;
-font-family:Arial;
-border-radius:5px;
-
+body {
+    background-color: #efefef;
 }
-.navbar a{
-float: left;
-font-size:15px;
-color:white;
-text-align:center;
-padding:14px 16px;
-text-decoration:none;
 
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+    border-radius: 5px;
+}
+
+.navbar a {
+    float: left;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
 .navbar a:hover,
-.dropMenu .dropbtn:hover{
-background-color: green;
-
+.dropMenu .dropbtn:hover {
+    background-color: green;
 }
 
-.dropMenu:hover .btnContent{
-display:block;
+.dropMenu:hover .btnContent {
+    display: block;
 }
 
-.dropMenu{
-float:left;
-overflow:hidden;
+.dropMenu {
+    float: left;
+    overflow: hidden;
 }
 
-.dropMenu .dropbtn{
-cursor:pointer;
-font-size:16px;
-border:none;
-outline:none;
-padding:14px 16px;
-color:white;
-background-color:#333;
-font-family:inherit;
+.dropMenu .dropbtn {
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+    color: white;
+    background-color: #333;
+    font-family: inherit;
 }
 
-.btnContent{
-display:none;
-position:absolute;
-
+.btnContent {
+    display: none;
+    position: absolute;
 }
 
-.btnContent a{
-float: none;
-color: black;
-padding:12px 16px;
-display: block;
-text-align:left;
-background-color:#ddd;
+.btnContent a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    display: block;
+    text-align: left;
+    background-color: #ddd;
 }
 
-.btncontent a:hover{
-
-background-color:green;
-
+.btncontent a:hover {
+    background-color: green;
 }
 
-
-.show{
-display:block;
+.show {
+    display: block;
 }
 
-
-#header{
-
-background-color:#1aff66;
-background-size: cover; 
-border-radius:7px;
-padding-top:1px;
-
-}
-	
-
-#header p{
-font-size:25pt;
-color:#333;
-padding-top:0px;
-padding-bottom:12px;
-font-weight:bold;
-text-align:center;
-
+#header {
+    background-color: #1aff66;
+    background-size: cover;
+    border-radius: 7px;
+    padding-top: 1px;
 }
 
-.question{
-overflow:hidden;
-font-size:24px;
-text-align:left;
-display:block;
-left:-60px;
-margin-top:35px;
-width:100%;
-background-color: #4CAF50;
-color: white;
-text-decoration: bold;
-cursor: pointer;
-border-radius:6px;
+#header p {
+    font-size: 25pt;
+    color: #333;
+    padding-top: 0px;
+    padding-bottom: 12px;
+    font-weight: bold;
+    text-align: center;
 }
 
-
-#answer1,#answer2{
-
-font-size:2vw;
-
+.question {
+    overflow: hidden;
+    font-size: 24px;
+    text-align: left;
+    display: block;
+    left: -60px;
+    margin-top: 35px;
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: bold;
+    cursor: pointer;
+    border-radius: 6px;
 }
 
-
-
-
+#answer1,
+#answer2 {
+    font-size: 2vw;
+}
