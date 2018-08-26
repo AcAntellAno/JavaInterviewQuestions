@@ -1,3 +1,8 @@
+$(document).ready(function () {
+	$('dropdown-toggle').dropdown();
+	$('.collapse').collapse();
+})
+
 function display1() {
 
 	var reveal = document.getElementById("answer1");
